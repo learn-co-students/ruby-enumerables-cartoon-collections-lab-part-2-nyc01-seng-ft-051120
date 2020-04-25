@@ -24,7 +24,7 @@ def find_valid_calls(planeteer_calls)
                                     if elements==valid
                                       return elements
                                       break
-                          elsif planeteer_calls.index+1==planeteer_calls.length
+          elsif planeteer_calls.find_index(elements)+1==planeteer_calls.length
                             return nil
                                     end  }
 
